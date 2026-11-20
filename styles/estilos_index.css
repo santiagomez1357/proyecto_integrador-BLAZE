@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f3ed;
+    color: #222222;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+header img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+header h1 {
+    margin: 5px;
+    letter-spacing: 5px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #222222;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.inicio {
+    background-color: #e9d8c7;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.inicio h2 {
+    font-size: 36px;
+}
+
+.inicio a {
+    display: inline-block;
+    background-color: #222222;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.catalogo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.producto {
+    background-color: white;
+    width: 220px;
+    padding: 15px;
+}
+
+.producto img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.producto h3 {
+    margin-bottom: 8px;
+}
+
+.producto p {
+    font-size: 14px;
+}
+
+.producto h4 {
+    color: #a65f35;
+}
+
+.nosotros {
+    background-color: #e9d8c7;
+}
+
+.nosotros p, #contacto p {
+    max-width: 650px;
+    margin: 15px auto;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .inicio h2 {
+        font-size: 28px;
+    }
+}
