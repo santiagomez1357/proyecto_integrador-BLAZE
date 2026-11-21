@@ -1,0 +1,79 @@
+.login {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.formulario {
+  background-color: white;
+  padding: 25px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.formulario input[type="email"],
+.formulario input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 2px solid #d9cfc2;
+  font-family: inherit;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.formulario input:focus {
+  border-color: #a65f35;
+  background-color: #fffaf3;
+  outline: none;
+}
+
+input[type="checkbox"]:checked {
+  accent-color: #a65f35;
+}
+
+.recordar {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.formulario button {
+  width: 100%;
+  background-color: #222222;
+  color: white;
+  border: none;
+  padding: 13px;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #a65f35;
+}
+
+.enlaces {
+  text-align: center;
+  font-size: 14px;
+  margin: 14px 0 0;
+}
+
+.enlaces a {
+  color: #000000;
+}
+
+.enlaces a:hover {
+  text-decoration: none;
+  color: #a65f35;
+}
+
+@media (max-width: 600px) {
+  .login {
+    padding: 30px 15px;
+    }
+}

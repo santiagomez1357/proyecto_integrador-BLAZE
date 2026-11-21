@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión BLAZE</title>
+  <link rel="stylesheet" href="styles/estilos_login.css">
+  <link rel="stylesheet" href="styles/estilos_index.css">
+
+</head>
+<body>
+
+  <header>
+    <img src="img/logo.jpeg" alt="Logo BLAZE">
+    <h1>BLAZE</h1>
+    <p>Velas artesanales</p>
+    <nav>
+      <a href="index.html#inicio" target="_blank">Inicio</a>
+      <a href="index.html#productos" target="_blank">Productos</a>
+      <a href="index.html#nosotros" target="_blank">Nosotros</a>
+      <a href="index.html#contacto" target="_blank">Contacto</a>
+      <a href="login.html" target="_blank">Iniciar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="login">
+      <h2>Iniciar sesión</h2>
+      <p>Ingresa con tu correo y tu contraseña</p>
+
+      <form action="formulario" action="#" method="post">
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" placeholder="nombre@correo.com" required>
+        <label for="clave">Contraseña</label>
+        <input type="password" id="clave" name="clave" placeholder="Tu contraseña" required>
+
+        <label class="recordar">
+        <input type="checkbox" name="recordar"> Recordarme
+        </label>
+
+        <button type="submit">Entrar</button>
+
+        <p class="enlaces"><a href="#">¿Olvidaste tu contraseña?</a></p>
+        <p class="enlaces">¿No una tienes cuenta con nosotros? <a href="registro.html">Regístrate</a></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 BLAZE - Velas artesanales</p>
+  </footer>
+
+</body>
+</html>
+
