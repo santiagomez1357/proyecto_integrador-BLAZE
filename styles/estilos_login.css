@@ -1,3 +1,21 @@
+
+@font-face {
+    font-family: "Jost";
+    src: url("/fuentes/jost.ttf");
+}
+
+@font-face {
+    font-family: "CrimsonPro";
+    src: url("/fuentes/crimsonpro.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: "Jost", Arial, sans-serif;
+    background-color: #f7f3ed;
+    color: #222222;
+}
+
 .login {
   max-width: 420px;
   margin: 0 auto;
@@ -13,7 +31,7 @@
 
 .formulario label {
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 7px;
 }
 
 .formulario input[type="email"],

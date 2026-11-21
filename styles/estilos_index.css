@@ -1,11 +1,25 @@
 
+@font-face {
+    font-family: "Jost";
+    src: url("/fuentes/jost.ttf");
+}
+@font-face {
+    font-family: "CrimsonPro";
+    src: url("/fuentes/crimsonpro.ttf");
+}
+
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Jost", Arial, sans-serif;
     background-color: #f7f3ed;
     color: #222222;
 }
+
+h1, h2, h3, h4 {
+    font-family: "CrimsonPro", Georgia, serif;
+}
+
 
 header {
     background-color: white;
