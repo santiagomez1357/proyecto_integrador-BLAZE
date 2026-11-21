@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f3ed;
+    color: #222222;
+}
+
+.login {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+section {
+    padding: 5px 5px;
+    text-align: left;
+}
+
+.registro {
+  background-color: white;
+  padding: 25px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.registro input:focus {
+  border-color: #a65f35;
+  background-color: #fffaf3;
+  outline: none;
+}
+
+.unete {
+    max-width: 500px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+  .registro {
+    padding: 30px 15px;
+    }
+}
